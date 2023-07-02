@@ -50,6 +50,7 @@ import { MatTableModule } from '@angular/material/table';
 import { TopNavComponent } from './layout/top-nav/top-nav.component';
 import { RegistrationComponent } from './authentication/registration/registration.component';
 import { LoginuserComponent } from './authentication/loginuser/loginuser.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -101,8 +102,9 @@ MatSnackBarModule,
 MatTooltipModule,
 MatPaginatorModule,
 MatSortModule,
-MatTableModule
-  ],
+MatTableModule,
+ReactiveFormsModule
+],
   providers: [],
   schemas:[
     CUSTOM_ELEMENTS_SCHEMA
